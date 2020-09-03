@@ -1,0 +1,331 @@
+        @font-face {
+            font-family: font_fb;
+            src: url('/fonts/facebook-letter-faces.ttf') format('truetype'), url('/fonts/facebook-letter-faces.otf') format('embedded-opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        [class*="col-"] {
+            width: 100%;
+        }
+        
+        @media only screen and (min-width: 600px) {
+            /* For tablets: */
+            .col-s-1 {
+                width: 8.33%;
+            }
+            .col-s-2 {
+                width: 16.66%;
+            }
+            .col-s-3 {
+                width: 25%;
+            }
+            .col-s-4 {
+                width: 33.33%;
+            }
+            .col-s-5 {
+                width: 41.66%;
+            }
+            .col-s-6 {
+                width: 50%;
+            }
+            .col-s-7 {
+                width: 58.33%;
+            }
+            .col-s-8 {
+                width: 66.66%;
+            }
+            .col-s-9 {
+                width: 75%;
+            }
+            .col-s-10 {
+                width: 83.33%;
+            }
+            .col-s-11 {
+                width: 91.66%;
+            }
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0 auto;
+            font-size: 100%;
+        }
+        
+        .container-fluid {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: rgb(59, 89, 152);
+            height: 12%;
+        }
+        
+        .navbar-collapse {
+            float: left;
+        }
+        
+        a.fb-home {
+            font-family: font_fb;
+            color: white;
+            font-weight: 100;
+        }
+        
+        .login-form {
+            color: whitesmoke;
+            font-size: 100%;
+            position: relative;
+        }
+        
+        .email {
+            font-size: 90%;
+        }
+        
+        .ip-email {
+            border: none;
+            width: 95%;
+        }
+        
+        .pwd {
+            font-size: 90%;
+        }
+        
+        .ip-pwd {
+            border: none;
+            width: 90%;
+        }
+        
+        .login-btn {
+            background-color: rgb(66, 103, 178);
+            color: whitesmoke;
+            font-weight: bold;
+            font-size: 90%;
+            width: 100%;
+        }
+        
+        a.forgot-acc-link {
+            color: rgb(233, 235, 238);
+            font-size: 90%;
+        }
+        
+        .dngd {
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .nhap {
+            font-size: 90%;
+            margin-top: -2%;
+        }
+        
+        .dn {
+            margin: 0 auto;
+        }
+        
+        .ur-acc-link {
+            color: #4B4F56;
+        }
+        
+        .ur-acc {
+            width: 162px;
+            height: 205px;
+            border: 1px gainsboro solid;
+            border-radius: 2px;
+            margin-right: 5%;
+        }
+        
+        .ur-name {
+            padding: 2% 40%;
+            font-size: 20px;
+        }
+        
+        .ur-avt {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+        }
+        
+        .ant-acc {
+            width: 162px;
+            height: 205px;
+            border: 1px gainsboro solid;
+            border-radius: 2px;
+        }
+        
+        .ant-name {
+            padding: 2% 5%;
+            font-size: 20px;
+            color: rgb(66, 103, 178);
+        }
+        
+        .ant-avt {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+        }
+        
+        .sign-up-acc {
+            margin: 0 2%;
+        }
+        
+        .new-acc {
+            border-bottom: 1px gray solid;
+        }
+        
+        .lg-si-tb {
+            margin: 0 auto;
+        }
+        
+        .mk-new-acc {
+            font-size: 35px;
+            font-weight: 600;
+        }
+        
+        .nhanh {
+            font-size: 130%;
+            margin-top: -2%;
+        }
+        
+        .sign-up-btn {
+            background-color: rgb(66, 183, 42);
+            margin-top: 2%;
+            color: whitesmoke;
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+        }
+        
+        .ho-ten {
+            margin: 0 auto;
+        }
+        
+        .mbt {
+            margin: 1% auto;
+        }
+        
+        .ho-ten {
+            margin-top: 2%;
+        }
+        
+        .rfloat {
+            width: 47%;
+        }
+        
+        .lfloat {
+            width: 47%;
+        }
+        
+        .float-r {
+            float: right;
+        }
+        
+        ._w97 {
+            width: 97%;
+        }
+        
+        ._w25 {
+            width: 25%;
+        }
+        
+        ._w27 {
+            width: 27%;
+        }
+        
+        ._w28 {
+            width: 28%;
+        }
+        
+        ._w30 {
+            width: 30%;
+        }
+        
+        .bd {
+            border: 1px solid gainsboro;
+            border-radius: 4px;
+        }
+        
+        .mgr65 {
+            margin-right: 65%;
+        }
+        
+        .mgr55 {
+            margin-right: 55%;
+        }
+        
+        .mgr35 {
+            margin-right: 35%;
+        }
+        
+        .dayb {
+            font-size: smaller;
+            margin: 1% 5%;
+        }
+        
+        .sexl {
+            font-size: smaller;
+            margin: 1% 5%;
+        }
+        
+        .contaxt {
+            font-size: 30%;
+            color: gray;
+            margin: 0 3%;
+        }
+        
+        .ht .btn-dk {
+            background-color: rgb(66, 183, 42);
+            margin: 0 auto;
+        }
+        
+        .mbt3 {
+            margin: 3% auto;
+        }

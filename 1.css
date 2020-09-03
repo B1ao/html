@@ -1,0 +1,76 @@
+*{
+    color: aliceblue;
+}
+.Header
+{
+        background-image: url("img/head.jpg");
+        height: 450px; 
+}
+.icon
+{
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+h5
+{
+    position: relative;
+    margin: 10px auto;
+    font-size: 15px;
+    top: -13px;
+    left: 85px;
+}
+.container-fluid
+{
+    width: 1270px;
+}
+.btn
+{
+    position: relative;
+    top: -43px;
+    left: 910px;
+    color: aliceblue;
+    margin: 0px 2px;
+    height: 30px;
+} 
+.ora
+{
+    background-color: orangered;
+    border: solid tomato 1px;
+    width: 130px;
+}
+.Sign
+{
+    border: white solid 1px;
+    width: 75px;
+}
+.Creators{
+    margin: 0 -3px;
+}
+h2.Connect
+{
+    position: relative;
+    font-weight: 100;
+    font-size: 40px; 
+    top: 50px; 
+    text-align: center;
+}
+p.Sologan
+{
+    position: relative;
+    top: 52px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.SignFree
+{
+    position: relative;
+    background-color: orangered;
+    font-weight: 400;
+    font-size: 18px;
+    top: 60px;
+    left: 500px;
+    width: 220px;
+    height: 48px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript String Methods</h2>
+
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+    <input type="text" id="demo">
+    <button onclick="myF()">Try it</button>
+    <p id="demo2"></p>
+
+
+
+    <script>
+        function myF() {
+            var out, x;
+            out = document.getElementById("demo2");
+            out.innerHTML = "";
+            x = document.getElementById("demo").value;
+            try {
+                if (x == "") throw ("is NULL");
+                if (isNaN(x)) throw (" is NaN");
+                x = Number(x);
+                if (x > 100) throw ("is higher than 100");
+                if (x < 1) throw ("is lower than 1");
+            } catch (err) {
+                out.innerHTML = "Input " + err;
+            } finally {
+                document.getElementById("demo").value = "";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
